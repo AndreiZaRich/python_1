@@ -7,3 +7,4 @@ else:
     hundreds = ((number - ones - tens * 10) % 1000) // 100
     number_summ = ones + tens + hundreds
     print("Сумма цифр введенного трехзначного положительного числа равна ", number_summ)
+# Задание 2 выполнено
