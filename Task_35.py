@@ -9,6 +9,6 @@ def prime(number):
 # Примеры использования функции
 num = int(input("Введите число: "))
 if prime(num):
-    print(f"{num} - простое число")
+    print("yes")
 else:
-    print(f"{num} - не является простым числом")
+    print("no")
