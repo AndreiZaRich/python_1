@@ -6,8 +6,10 @@ print("Сгенерированный список оценок:", assess)
 
 def change_assess(assess):
     for i in range(len(assess)):
-        if assess[i] > 3:
-            assess[i] = 1
+        max_assess = max(assess)
+        min_assess = min(assess)
+        if assess[i] == max_assess:
+            assess[i] = min_assess
     return assess
 
 assess_new = change_assess(assess)
