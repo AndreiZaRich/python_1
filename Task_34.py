@@ -9,7 +9,7 @@ def check_rhythm(poem):
     return all(phrase == syllables[0] for phrase in syllables)
 
 def count_syllables(word):
-    vowels = 'aeiouаеёиоуыэюя'
+    vowels = 'аеёиоуыэюя'
     count = sum(1 for letter in word.lower() if letter in vowels)
     return count
 
