@@ -163,7 +163,7 @@ def answerUserYesOrNo():
         answer = str(input("Enter Y or N: ")).upper()
     return answer
 
-# Функция для проверки ответа пользователя (цифра от 1 до 9)
+# Функция для проверки ответа пользователя
 def answerUserNumberIndex(phoneBook):
     index = ''
     while not index.isdigit() or int(index) > len(phoneBook):
